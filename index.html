@@ -351,7 +351,7 @@
     </footer>
     <script>
         $(document).ready(function() {
-            $(".close-field").css({'width': ()=>document.body.clientWidth, 'height': ()=>window.innerHeight-$('.menu-container').outerHeight()} )
+            $(".close-field").css({'width': ()=>document.body.clientWidth, 'height': ()=>window.innerHeight-$('.header__menu').outerHeight()} )
             $(".button-close, .close-field").hide();
             
             $(".button-burger").click(function() {
@@ -363,7 +363,6 @@
                             $(this).removeAttr('style');
                         }
                     } else {
-                        $(".body").css({'position': 'fixed', 'overflow': 'scroll'})
                         $(".button-burger").hide();
                         $(".button-close, .close-field").show()
 
