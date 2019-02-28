@@ -373,17 +373,22 @@
                     }
                 });
             });
+
             $(window).resize(function() {
                 if(window.innerWidth>1000) {
                     $(".menu").css({'display':'flex'})
                     $(".button-burger").hide();
                     $(".button-close, .close-field").hide();
-                } else {
+                } if ((window.innerWidth<1000 && $(".menu").css('display') === 'block')){
+                    $(".button-burger").show();
+                    $(".button-close, .close-field").hide();
+                } else if (window.innerWidth<1000) {
                     $(".menu").css({'display':'none'})
                     $(".button-burger").show();
                     $(".button-close, .close-field").hide();
                 }
             });
+
             $(".button-close, .close-field").click(function() {
                 $(".body").removeAttr('style')
                 $(".button-close, .close-field").hide();

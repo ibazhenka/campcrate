@@ -23,7 +23,7 @@
     display: none;
     width: 150px;
     padding: 0 20px;
-    position: absolute;
+    position: fixed;
     top: 130px;
     text-align: right;
     right: 20px;
@@ -57,7 +57,7 @@ box-sizing: border-box;
 }
 
 .close-field {
-    position: absolute;
+    position: fixed;
     background: transparent;
     z-index: 10;
 }
