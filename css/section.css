@@ -1,0 +1,78 @@
+.section {
+    margin: auto;
+    max-width: 1440px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 600px){
+    .section {
+        padding: 0 40px;
+    }
+}
+@media screen and (min-width: 1000px){
+    .section {
+        padding: 0 64px;
+    }
+}
+.section--header-menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+}
+.section--header-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section--select-service{
+    padding: 75px 0 0;
+}
+
+.section--your-gear{
+    padding-top: 57px;
+    position: relative;
+}
+
+@media screen  and (min-width:1350px){
+    .section--your-gear {
+        padding: 57px 0 175px;
+    }
+}
+@media screen  and (min-width:1600px){
+    .section--your-gear {
+        padding-top: 140px;
+        padding-bottom: 285px;
+    }
+}
+.section--share{
+    padding: 0 20px;
+}
+
+.section--about-and-faq{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+@media screen  and (min-width:800px){
+    .section--about-and-faq{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        box-sizing: border-box;
+        align-items: flex-start;
+    }
+}
+.section--footer{
+    padding: 85px 17px 38px;
+    margin: auto;
+}
+@media screen  and (min-width:600px){
+    .section--footer{
+        padding: 140px 50px 30px;
+        margin: auto;
+    }
+}

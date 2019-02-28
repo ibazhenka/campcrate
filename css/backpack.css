@@ -1,0 +1,29 @@
+
+@media screen and (min-width: 1350px){
+    .backpack{
+        top: 224px;
+        left: 34px; 
+        flex-direction: column;
+    }
+}
+.backpack-img{
+    width: 63px;
+}
+@media screen and (min-width: 1350px){
+    .backpack-img{
+        width:  170px;
+    }
+}
+
+
+@media screen and (min-width: 1350px){
+    .gear__txt--backpack{
+        max-width: 221px;
+    }
+}
+.backpack__arrow{
+    width: 56px;
+    height: 143px;
+    top: 143px;
+    left: 111px;
+}

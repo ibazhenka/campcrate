@@ -1,0 +1,33 @@
+@media screen and (min-width: 1350px){
+    .tent{
+        flex-flow: row-reverse;
+        top: 241px;
+        left: 273px;
+    }
+}
+
+.tent-img{
+    width:  85px;
+}
+
+@media screen and (min-width: 1350px){
+    .tent-img{
+        width: 712px;
+        position: absolute;
+        top: -148px;
+        left: 100px;
+    }
+}
+
+@media screen and (min-width: 1350px){
+    .gear__txt--tent{
+        max-width: 222px;
+    }
+}
+.tent__arrow{
+    width: 196px;
+    height: 225px;
+    top: -60px;
+    left: 145px;
+    transform: rotate(45deg);
+}

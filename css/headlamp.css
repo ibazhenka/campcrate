@@ -1,0 +1,45 @@
+@media screen and (min-width: 1350px){
+    .headlamp{
+        flex-flow: row-reverse;
+        top: 81px;
+        left: 34px;
+    }
+}
+.headlamp-img{
+    width: 70px;
+}
+@media screen and (min-width: 1350px){
+    .headlamp-img{
+        width: 181px;
+    }
+}
+.headlamp-light {
+    display: none;
+}
+@media screen and (min-width: 1350px){
+    .headlamp-light {
+        display: block;
+        width: 232px;
+        height: 188px;
+        opacity: 0.83;
+        -webkit-filter: blur(10px);
+        filter: blur(10px);
+        background-blend-mode: overlay;
+        background-image: linear-gradient(322deg, rgba(225, 220, 188, 0), #fffbb7);
+        position: absolute;
+        top: 47px;
+        left: 450px;
+    }
+}
+
+@media screen and (min-width: 1350px){
+    .gear__txt--headlamp{
+        max-width: 292px;
+    }
+}
+.headlamp__arrow{
+    width: 176px;
+    height: 45px;
+    top: -10px;
+    left: 180px;
+}

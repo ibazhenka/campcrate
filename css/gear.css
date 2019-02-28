@@ -1,0 +1,141 @@
+
+.your-gear {
+    position: relative;
+    margin-top: 74px;
+    background: url(../img/wood-back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* @media screen and (min-width:1350px){
+    .your-gear{
+        background-size: 1600px;
+    }
+} */
+@media screen and (min-width:1600px){
+    .your-gear{
+        background-size: 1920px;
+    }
+}
+.green-bg{
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 400px;
+    background: #193a30;
+}
+.c-gear{
+    margin: auto;
+    margin-top: -35px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+@media screen and (min-width:680px){
+    .c-gear{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+        width: 680px;
+    }
+}
+@media screen and (min-width:1350px){
+    .c-gear{
+        box-sizing: border-box;
+        width: 1312px;
+        min-height: 732px;
+        border: 8px solid #ffffff;
+        border-top: none; 
+        padding-bottom: 0;
+        position: relative;
+    }
+}
+.your-gear__t-title{
+    padding: 0 34px;
+ }
+
+.title-with-line{
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    max-width: 1312px;
+}
+.line{
+    width: 100%;
+    height: 8px;
+    background: #ffffff;
+    flex: 1;
+}
+.gear__item{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 40px;
+}
+@media screen and (min-width: 1350px){
+    .gear__item{
+        margin-top: 0;
+        position: absolute;
+    }
+}
+.gear__txt{
+    max-width: 600px;
+    z-index: 1;
+}
+@media screen and (min-width:680px){
+    .gear__txt{
+        width: 250px;
+    }
+}
+.gear__img{
+    min-width: 85px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+@media screen and (min-width: 1350px){
+    .gear__img{
+        justify-content:left;
+    }
+}
+.gear__arrow2, .gear__arrow3, .gear__arrow4, .gear__arrow5, .gear__arrow6{
+    display: none;
+}
+@media screen and (min-width: 1350px){
+    .gear__arrow2, .gear__arrow3, .gear__arrow4, .gear__arrow5, .gear__arrow6{
+        display: block;
+    }
+    .gear__arrow2{
+        position: absolute;
+        background: url(../img/path-2.png) no-repeat;
+        background-size: 100%;
+        z-index: 10;
+    }
+
+    .gear__arrow3{
+        position: absolute;
+        background: url(../img/path-3.png) no-repeat;
+        background-size: 100%;
+        z-index: 10;
+    }
+    .gear__arrow4{
+        position: absolute;
+        background: url(../img/path-4.png) no-repeat;
+        background-size: 100%;
+        z-index: 10;
+    }
+    .gear__arrow5{
+        position: absolute;
+        background: url(../img/path-5.png) no-repeat;
+        background-size: 100%;
+        z-index: 10;
+    }
+    .gear__arrow6{
+        position: absolute;
+        background: url(../img/path-6.png) no-repeat;
+        background-size: 100%;
+        z-index: 10;
+    }
+}
+
+

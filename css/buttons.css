@@ -1,0 +1,49 @@
+
+
+.menu__button{
+    display: none;
+}
+@media screen and (min-width: 1000px){
+    .menu__button{
+        display: block;
+    }
+}
+
+.button {
+    width: 244px;
+    height: 80px;
+    border-radius: 4px;
+    background-color: #e75c3a;
+    border: none;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1000px){
+    .button-close{
+        display: none;
+    }
+}
+
+.button-burger, .button-close{
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 2em;
+}
+@media screen and (min-width: 1000px){
+    .button-burger{
+        display: none;
+    }
+}
+
+.button--small{
+    font-size: 1em;
+    width: 156px;
+    height: 48px;
+}
+.button--about-margin-top{
+    margin-top: 50px
+}
+

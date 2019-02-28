@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Anodyne';
+    src: url(../fonts/Anodyne.otf);
+    line-height: 1;
+}
+@font-face {
+    font-family: 'Mariupol';
+    src: url(../fonts/Mariupol-Regular.otf);
+    font-weight: 300;
+    line-height: 1.5;
+}
+@font-face {
+    font-family: 'MariupolMedium';
+    src: url(../fonts/Mariupol-Medium.otf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'MariupolBold';
+    src: url(../fonts/Mariupol-Bold.otf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'AnodyneCombined';
+    src: url(../fonts/AhmetAltun-FestivoLettersNo.14.otf);
+}
+
+.t-title {
+    font-family: 'Anodyne';
+    font-size: 2em;
+    text-align: center;
+    color: #0f282f;
+}
+@media screen and (min-width:600px){
+    .t-title {
+        font-size: 4em;
+    }
+ }
+
+ .t-title--shadow{
+    text-shadow: 0 2px 4px #0f282f, 0 2px 24px #1d4033;
+ }
+ .t-subtitle {
+    font-family: 'MariupolBold';
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #1d4033;
+    text-transform: uppercase;
+}
+.t-subtitle--margin-top{
+    margin-top: 24px
+}
+.t-subtitle--align-left{
+    text-align: left;
+}
+
+.t-subtitle--compact{
+    letter-spacing: 0;
+}
+
+
+.how-it-work__t-subtitle{
+    margin-top: 24px;
+}
+
+.t-menu{
+    font-family: 'MariupolBold';
+    font-size: 1em;
+    color: #ffffff;
+}
+.t-button{
+    font-family: 'MariupolBold';
+    font-size: 1.5em;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.t-middle-title {
+    font-family: 'MariupolBold', Arial;
+    font-size: 2em;
+    letter-spacing: -0.3px;
+    color: #0f282f;
+    text-transform: uppercase;
+}
+.t-middle-title--small {
+    font-size: 1.5em;
+    letter-spacing: -0.2px;
+}
+
+.t-txt{
+    font-family: 'Mariupol';
+    font-size: 1em;
+    line-height: 1.5;
+    color: #1d4033;
+}
+.t-txt--small{
+    font-size: 0.8em;
+}
+.t-txt--bold{
+    font-family: 'MariupolBold';
+}
+.t-txt--compact{
+    font-size: 0.6em;  
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+
+.arrow-marker{
+    width: 24px;
+    height:24px;
+    display: inline-block;
+    background: url('../img/arrow-marker.png') no-repeat;
+    vertical-align: middle;
+}
+.t-list {
+    font-family: 'MariupolMedium';
+    font-size: 1.2em;
+    letter-spacing: -0.1px;
+    color: #0f282f;
+}
+
+.t-cost{
+    font-family: 'AnodyneCombined';
+    font-size: 4.75em;
+    color: #0f282f;
+}
+
+.t-phone-number{
+    text-decoration: none;
+    font-family: Asket, Arial, Helvetica, sans-serif;
+    font-size: 2.25em;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: 1;
+    letter-spacing: -0.4px;
+    text-align: center;
+    color: #1d4033
+}
+.t--white{
+    color: #ffffff;
+}
+.t--bej{
+    color: #e8e0c7;
+}
+.t--grey{
+    color: #71787a;
+}
+.t--center{
+    text-align: center;
+}
+.t--margin-top16px{
+    margin-top: 16px;
+}
+.t--uppercase{
+    text-transform: uppercase;
+}

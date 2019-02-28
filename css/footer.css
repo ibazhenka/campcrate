@@ -1,0 +1,114 @@
+.footer{
+    background: url(../img/image-let-us-do-packing-back@2x--mobile.png) no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+@media screen  and (min-width:400px){
+    .footer{
+        background: url(../img/image-let-us-do-packing-back--800.png) no-repeat;
+        background-size: 800px;
+        position: relative;
+    }
+}
+@media screen  and (min-width:800px){
+    .footer{
+        background: url(../img/image-let-us-do-packing-back.png) no-repeat;
+        background-size: 1600px;
+        position: relative;
+    }
+}
+@media screen  and (min-width:1400px){
+    .footer{
+        background-size: 1600px;
+    }
+}
+@media screen  and (min-width:1600px){
+    .footer{
+        background-size: 1920px;
+    }
+}
+.footer__decor{
+    margin: auto;
+    display: block;
+    width: 286px;
+}
+@media screen  and (min-width:600px){
+    .footer__decor{
+        width: 450px;
+    }
+}
+@media screen  and (min-width:800px){
+    .footer__decor{
+        width: 533px;
+    }
+}
+
+.footer__body{
+    display: flex;
+    width: 255px;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+.footer__body:first-of-type{
+    height: 175px;
+}
+.footer__body:nth-of-type(2){
+    height: 50px;
+}
+
+@media screen  and (min-width:800px){
+    .footer__body, .footer__body:first-of-type, .footer__body:nth-of-type(2){
+        flex-flow: nowrap;
+        justify-content: space-between;
+        height: 100%;
+        width: 100%;
+    }
+
+}
+.footer__logo .logo{
+    width: 275px;
+    height: 48px;
+}
+
+.footer__social-media{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-self: center;
+    width: 104px;
+    height: 48px;
+}
+
+.social-media{
+    width: 48px;
+    height: 48px;
+}
+.footer__body--margintop-big{
+    margin: auto;
+    margin-top: 420px;
+}
+@media screen  and (min-width:600px){
+    .footer__body--margintop-big{
+        margin-top: 345px;
+    }
+}
+@media screen  and (min-width:1600px){
+    .footer__body--margintop-big{
+        margin-top: 445px;
+    }
+}
+.footer__body--margintop-small{
+    margin: auto;
+    margin-top: 45px;
+}
+
+.footer-black-bg{
+    width: 100%;
+    height: 400px;
+    background: #000000;
+    position: absolute;
+    bottom: 0;
+    z-index: -2;
+}

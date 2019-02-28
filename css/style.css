@@ -1,0 +1,220 @@
+.body{
+    z-index: -10;
+    background-color: #f1efe9;
+}
+
+
+.logo {
+    width: 183px;
+    height: 32px;
+}
+@media screen and (min-width: 600px){
+    .header__logo .logo {
+        width: 275px;
+        height: 48px;
+    }
+}
+@media screen and (min-width: 600px){
+    .header__logo .logo.logo--fixed-menu{
+        width: 183px;
+        height: 32px;
+    }
+}
+.menu {
+    display: none;
+    width: 150px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    text-align: right;
+    right: 20px;
+    line-height: 2;
+}
+@media screen and (min-width: 1000px){
+    .menu {
+        position: unset;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 366px;
+        padding: 0 20px;
+    }
+}
+
+.menu__item{
+padding: 5px 0;
+box-sizing: border-box;
+}
+
+@media screen and (min-width: 1000px){
+    .menu__item{
+        padding: 10px 0;
+        }
+}
+.menu__item:hover{
+    cursor: pointer;
+    border-bottom: #e75c3a solid 5px;
+}
+
+.close-field {
+    position: absolute;
+    background: transparent;
+    z-index: 10;
+}
+
+.tagline {
+    width: 199px;
+    height: 101px;
+    background:url(../img/rent-explore-return-badge.png) no-repeat;
+    background-size: 100%;
+}
+
+@media screen and (min-width: 400px){
+    .tagline {
+        width: 250px;
+        height: 202px;
+    }
+}
+@media screen and (min-width: 600px){
+    .tagline {
+        width: 395px;
+        height: 202px;
+    }
+}
+
+.partners-logo {
+    width: 268px;
+    height: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+@media screen and (min-width:650px){
+    .partners-logo {
+        width: 670px;
+        height: 50px;
+    }
+}
+
+@media screen and (min-width:400px){
+    .partners-logo {
+        width: 420px;
+        height: 28px;
+    }
+}
+
+.logo-outside{
+    width: 78px;
+    height: 20px;
+}
+@media screen and (min-width:650px){
+    .logo-outside{
+        width: 173px;
+        height: 44px;
+    }
+}
+@media screen and (min-width:400px){
+    .logo-outside{
+        width: 110px;
+        height: 28px;
+    }
+}
+.logo-john-muir-trail{
+    width: 101px;
+    height: 6px;
+}
+@media screen and (min-width:650px){
+    .logo-john-muir-trail{
+        width: 224px;
+        height: 14px;
+    }
+}
+@media screen and (min-width:400px){
+    .logo-john-muir-trail{
+        width: 130px;
+        height: 9px;
+    }
+}
+.logo-fathom{
+    width: 65px;
+    height: 18px;
+}
+@media screen and (min-width:650px){
+    .logo-fathom{
+        width: 145px;
+        height: 40px;
+    }
+}
+
+@media screen and (min-width:400px){
+    .logo-fathom{
+        width: 100px;
+        height: 28px;
+    }
+}
+
+.container-four-items{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+
+.about-and-faq__column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 640px;
+    padding: 30px 10px 30px; 
+}
+@media screen  and (min-width:800px){
+    .about-and-faq__column{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 640px;
+        padding: 60px 10px 70px;  
+    }
+}
+.txt{
+    margin-top: 35px;
+    max-width: 640px;
+}
+@media screen  and (min-width:800px){
+    .txt{
+        margin-top: 65px;
+    }
+}
+
+.txt .t-txt{
+    margin-top: 20px;
+}
+
+.txt .t-subtitle:not(:nth-child(1)){
+    margin-top: 30px;
+}
+
+.list{
+    padding-top:30px; 
+    line-height: 2;
+}
+.cost{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 170px;
+    height: 76px;
+    justify-content: space-between;
+    align-items: center;
+}
+.phone--margin-top{
+    margin-top: 50px
+}
+@media screen  and (min-width:800px){
+    .phone--margin-top{
+        margin-top: 100px
+    }
+}

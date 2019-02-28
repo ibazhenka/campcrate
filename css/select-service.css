@@ -1,0 +1,120 @@
+.select-service{
+    background: url(../img/image-select-service-background@2x.png) no-repeat;
+    background-size: 100%;
+}
+
+@media screen and (min-width: 600px){
+    .select-service{
+        background: url(../img/image-select-service-background@3x.png) no-repeat;
+        background-size: 100%;
+    }
+}
+@media screen and (min-width: 750px){
+    .select-service{
+        background: url(../img/image-select-service-background.png) no-repeat;
+        background-size: 1600px;
+    }
+}
+@media screen and (min-width: 1600px){
+    .select-service{
+        background: url(../img/image-select-service-background.png) no-repeat;
+        background-size: 1920px;
+    }
+}
+.select-service__t-title{
+    margin-top: 15px;
+}
+.select-service__bg-img{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+.select-service__service-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 32px 0 0;
+}
+@media screen and (min-width: 1000px){
+    .select-service__service-cards{
+        flex-flow: row nowrap;
+        padding: 68px 0 ;
+    }
+}
+@media screen and (min-width: 1600px){
+    .select-service__service-cards{
+        padding: 170px 0 ;
+    }
+}
+.service-cards__card{
+    background: #ffffff;
+    width: 288px;
+    padding: 40px 30px 30px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 600px){
+    .service-cards__card{
+        width: 450px;
+    }
+}
+@media screen and (min-width: 1000px){
+    .service-cards__card{
+        width: 336px;
+    }
+}
+.service-cards__card--margin-top:not(:nth-child(1)){
+    margin-top: 20px
+}
+@media screen and (min-width: 1000px){
+    .service-cards__card--margin-top:nth-child(odd){
+        margin-top: 48px
+    }
+}
+
+.service-cards__card--bej{
+    background: #e8e3d2;
+}
+@media screen and (min-width: 1000px){
+    .service-cards__card--left{
+        border-radius: 8px 0 0 8px;
+    }
+}
+.service-cards__card--green{
+    background: #d4e0d8;
+}
+@media screen and (min-width: 1000px){
+    .service-cards__card--right{
+        border-radius: 0 8px 8px 0;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .service-cards__card--big{
+        width: 449px;
+    }
+}
+@media screen and (min-width: 1000px){
+    .service-cards__card--center{
+        z-index: 1;
+        box-shadow: 0 16px 16px 0 rgba(29, 64, 51, 0.35);
+    }
+}
+
+.service-cards__title{
+    margin-top: 24px;
+}
+.service-cards__subtitle{
+    margin-top: 11px;
+}
+.service-cards__compact-txt{
+    margin-top: 45px;
+}
+.service-cards__button{
+    margin: 20px 0;
+}
+.select-service__t-title{
+    margin-top: 15px;
+}

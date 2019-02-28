@@ -1,0 +1,27 @@
+
+@media screen and (min-width: 1350px){
+    .campstove{
+        top: 524px;
+        left: 629px;
+    }
+}
+.campstove-img{
+    width: 60px;
+}
+@media screen and (min-width: 1350px){
+    .campstove-img{
+        width:  123px;
+    }
+}
+
+@media screen and (min-width: 1350px){
+    .gear__txt--campstove{
+        max-width: 175px;
+    }
+}
+.campstove__arrow{
+    width: 68px;
+    height: 16px;
+    top: 30px;
+    left: 40px;
+}

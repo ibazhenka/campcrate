@@ -1,0 +1,26 @@
+
+@media screen and (min-width: 1350px){
+    .gear__txt--waterfilter{
+        max-width: 207px;
+    }
+}
+@media screen and (min-width: 1350px){
+    .waterfilter{
+        top: 524px;
+        left: 281px;
+    }
+}
+.waterfilter-img{
+    width: 60px;
+}
+@media screen and (min-width: 1350px){
+    .waterfilter-img{
+        width: 121px;
+    }
+}
+.waterfilter__arrow{
+    width: 109px;
+    height: 24px;
+    top: -10px;
+    left: 45px;
+}

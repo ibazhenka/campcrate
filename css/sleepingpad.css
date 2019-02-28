@@ -1,0 +1,32 @@
+
+@media screen and (min-width: 1350px){
+    .sleepingpad {
+        top: 81px;
+        left: 899px;
+        flex-direction: row-reverse;
+    }
+}
+
+.sleepingpad-img{
+    width: 45px;
+}
+@media screen and (min-width: 1350px){
+    .sleepingpad-img{
+        width:  137px;
+        position: absolute;
+        top: -56px;
+        left: 245px;
+    }
+}
+@media screen and (min-width: 1350px){
+    .gear__txt--sleepingpad{
+        max-width: 245px;
+    }
+}
+.sleepingpad__arrow{
+    width: 170px;
+    height: 138px;
+    top: 88px;
+    left: 122px;
+    transform: rotate(-35deg) scale(1,-1);
+}
